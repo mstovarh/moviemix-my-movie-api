@@ -8,11 +8,11 @@ from services.user import UserService
 
 user_router = APIRouter()
 
-""" @user_router.post( "/logup", tags=['auth'], response_model=dict)
+@user_router.post( "/logup", tags=['auth'], response_model=dict)
 def create_user(user: User) -> dict:
     db = Session()
     UserService(db).create_user(user)
-    return JSONResponse(status_code=201, content={"message": "Usted se ha registrado"}) """
+    return JSONResponse(status_code=201, content={"message": "Usted se ha registrado"})
 
 @user_router.post('/login', tags=['auth'])
 def login(user: User):

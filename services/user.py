@@ -17,8 +17,8 @@ class UserService():
             else:
                 raise HTTPException(status_code=401, detail="Correo incorrecto")
         
-"""     def create_user(self, user: User):
+    def create_user(self, user: User):
         new_user = UserModel(**user.model_dump())
         self.db.add(new_user)
         self.db.commit()
-        return """
+        return
