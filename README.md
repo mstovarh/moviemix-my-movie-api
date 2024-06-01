@@ -1,5 +1,5 @@
 ## 💜MovieMix
-MovieMix es una API personalizada basada en FastAPI y SQLAlchemy, diseñada para recomendar películas a los consumidores. La API soporta los métodos GET, POST, PUT y DELETE, con los últimos tres protegidos mediante autenticación con tokens JWT. Los usuarios deben registrarse para acceder a estas funciones. El método GET está disponible para todos y permite filtrar las películas por ID, categoría o año de lanzamiento. Este proyecto, desarrollado durante el Curso de FastAPI de Platzi, ha mejorado significativamente mis habilidades con FastAPI.
+MovieMix es una API personalizada basada en FastAPI y SQLAlchemy, diseñada para recomendar películas a los consumidores, es producto del Curso de FastAPI de Platzi. La API soporta los métodos GET, POST, PUT y DELETE, con los últimos tres protegidos mediante autenticación con tokens JWT. Los usuarios deben registrarse para acceder a estas funciones. El método GET está disponible para todos y permite filtrar las películas por ID, categoría o año de lanzamiento. Este proyecto, desarrollado durante el Curso de FastAPI de Platzi, ha mejorado significativamente mis habilidades con FastAPI.
 
 ## ✅Previsualización de la API
 
